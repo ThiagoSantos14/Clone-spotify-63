@@ -32,18 +32,6 @@ Pronto! Não precisa instalar nada.
 
 ---
 
-## 💡 Melhorias futuras
 
-- Deixar a busca mais inteligente
-- Adicionar player de música
-- Melhorar para celulares
 
----
 
-## 👤 Autor
-
-**BAREZINHO14**
-
-Projeto feito para treinar front-end.
-
----
