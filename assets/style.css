@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arimo", serif;;
+}
+
+html body {
+    width: 100%;
+    height: 100vh;
+    background: rgb(230, 228, 228);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+/*styles herader*/
+header {
+    width: 100%;
+    height: 18vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #ecebeb;
+}
+
+.logotipo-aside {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    mix-blend-mode: multiply;
+}
+
+.contant-library {
+    padding-left: 6vh;
+}
+
+.contant-library:hover {
+    opacity: 0.5;
+    transition: 0.9s;
+}
+
+.btn-next {
+    border-radius: 30px;
+    color: white;
+    mix-blend-mode: multiply;
+}
+
+.btn-next:hover {
+    opacity: 0.5;
+    transition: 0.9s;
+}
+
+.btn-back {
+    rotate: 180deg;
+    border-radius: 30px;
+    mix-blend-mode: multiply;
+}
+
+.btn-back:hover {
+    opacity: 0.5;
+    transition: 0.9s;
+}
+
+.textPlaceholder {
+    display: none;
+}
+
+input[type='text'] {
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+input::placeholder {
+    padding-left: 10px;
+}
+
+.btn-search {
+    border: none;
+    cursor: pointer;
+}
+
+.btn-search:hover {
+    opacity: 0.5s;
+    transition: 0.9s;
+}
+
+.menu:hover {
+    opacity: 0.5;
+    transition: 0.9s;
+}
+
+figure {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 3vh;
+    gap: 10px;
+}
+
+figure img {
+    border-radius: 20px;
+}
+
+
+/*Styles aside left*/
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.aside-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 29%;
+    height: 80vh;
+    background: rgb(236, 235, 235);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.aside-left a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 15vh;
+}
+
+.aside-left a:hover {
+    background: #dbdbdb;
+}
+
+
+/*Styles main center*/
+.container-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 69%;
+    height: 80vh;
+    background: #f3f3f3;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.container-center a:hover {
+    color: #19B14F;
+}
+
+.contant-sertanejo-01 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+} 
+
+.contant-sertanejo-02 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contant-sertanejo-03 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contant-funk-01 {
+    width: 50%;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+} 
+
+.contant-funk-02 {
+    width: 50%;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contant-funk-03 {
+    width: 40%;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contant-trap-01 {
+    width: 50%;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+} 
+
+.contant-trap-02 {
+    width: 50%;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contant-trap-03 {
+    width: 40%;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contant-phonk-01 {
+    width: 50%;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+} 
+
+.contant-phonk-02 {
+    width: 50%;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contant-phonk-03 {
+    width: 40%;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contant-internacional-01 {
+    width: 50%;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+} 
+
+.contant-internacional-02 {
+    width: 50%;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contant-internacional-03 {
+    width: 40%;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+/*style para feature search*/
+.styleSearch {
+    background: #dbdbdb;
+    border-radius: 10px;
+    color: #19B14F;
+}
+
+.styleSearchNone {
+    background: none;
+    border-radius: 0px;
+    color: black;
+}
